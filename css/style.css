@@ -1,0 +1,341 @@
+/* Start page Roles */
+
+body {padding-top:61px }
+h1, h2, h3, h4, h5 {color: #333 }
+p { color:#555 }
+
+/* End page Roles */
+
+
+/*############# Start navigation bar #############*/
+.navbar { border-radius: 0; margin-bottom:0 }
+.navbar-brand { height: auto; padding: 5px 15px; }
+.navbar-header a:last-of-type
+{
+    display: inline-block;
+    text-decoration: none;
+    color: #9D9D9D;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 10px;    
+}
+
+.navbar-header a:last-of-type span{ color: #2196F3}
+
+@media (min-width: 768px)
+{
+  
+.navbar-nav { float: Right; }
+.navbar-nav > li > a { padding-top: 20px; padding-bottom: 20px; }
+
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus { background-color: #2196F3; }
+/*############# End navigation bar #############*/
+
+
+
+/*############# Start Slider #############*/
+.slide .carousel-inner > .item > img, .carousel-inner > .item > a > img {width: 100%;}
+.slide .carousel-indicators .active { background-color:#2196F3}
+/*############# End Slider #############*/
+
+
+
+/*############# Start About #############*/
+.about { padding-top: 40px; padding-bottom: 40px; overflow: hidden }
+.about h1 { padding-bottom: 10px}
+.about h1 span { font-weight: bold; color: #2196F3;}
+.about .lead { font-size: 25px}
+/*############# End About #############*/
+
+
+/*############# Start features #############*/
+.features { background-color: #EEE; padding-top: 20px; padding-bottom: 30px; overflow: hidden}
+.features .feat {opacity: .85; margin-bottom: 10px; transition: all .3s ease-in-out}
+.features h1 { padding-top: 20px; padding-bottom: 30px}
+.features .feat span { font-size: 35px; color: #555}
+.features .feat h4 { padding-top: 10px}
+.features .feat .lead { font-size: 13px; line-height: 1.7}
+
+.features .feat:hover {opacity: 1}
+/*############# End features #############*/
+
+
+/*############# Start Testimonials #############*/
+.Testimonials { padding-top: 25px; padding-bottom: 30px}
+.Testimonials .carousel h1 {font-weight: 200; padding-bottom: 5px}
+.Testimonials .carousel .item .lead {line-height: 1.7}
+.Testimonials .carousel h4 {color: #2196F3}
+.Testimonials .carousel-indicators {
+    position: static; 
+    bottom: 0; 
+    left: 0; 
+    width: auto; 
+    padding-left: 0; 
+    margin-left: 0;
+    
+}
+.Testimonials .carousel-indicators li {
+    height: 70px;
+    width:70px;
+    border-radius: 50%;
+    border: 3px solid #2196F3;
+    overflow: hidden;
+    opacity: .4;
+    text-indent: 0;
+    transition: all .8s ease-in-out;
+    margin: 2px
+}
+.Testimonials .carousel-indicators .active {opacity: 1}
+/*############# End Testimonials #############*/
+
+
+/*############# Start Offers #############*/
+
+.offers
+{
+    background-color: #EEE;
+    padding-top: 25px;
+    padding-bottom: 45px
+}
+
+
+.offers h1
+{
+    padding-bottom: 40px
+}
+
+
+.offers .price
+{
+    background-color: #FFF;
+    padding-top: 3px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    border: 2px solid #CCC;
+    border-radius: 5px;
+    
+}
+
+.offers .price:hover span
+{
+    transform: rotate(360deg) scale(1.1,1.1);
+    border: 1px solid #CCC
+}
+
+.offers .price span
+{
+    display: inline-block;
+    width:90px;
+    height: 90px;
+    line-height: 90px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background-color: #EEE;
+    color: #666;
+    border-radius: 50%;
+    font-size: 30px;
+    font-weight: bold;
+    transition: all .8s ease-in-out
+}
+
+.offers .price li
+{
+    line-height: 40px;
+    font-size: 18px
+}
+
+/*############# End Offers #############*/
+
+/*############# Start Our Team #############*/
+
+.team
+{
+    background: url(../images/background/Cover_Image.jpg) fixed;
+    background-size: cover;
+}
+
+.team .Back {
+    background: rgba(2,2,2,0.1);
+    background-size: cover;
+}
+
+.team h1
+{
+    padding-top: 40px;
+    padding-bottom: 30px;
+    color: #FFF
+}
+
+.team .person
+{
+    padding-bottom: 60px
+}
+
+.team .person img
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%
+}
+
+.team .person h3 { color:#E6E6E6; padding-top: 5px; padding-bottom: 5px}
+.team .person p { color:#E6E6E6; font-size: 15px}
+.team .person i {color: #FFF; margin-right: 5px; opacity: .5; transition: all .3s ease-in-out}
+.team .person i:hover { opacity: 1}
+/*############# Start Our Team #############*/
+
+/*############# Start Our Skills #############*/
+
+.register
+{
+    background-color: #EEE;
+    padding-top: 20px;
+    padding-bottom: 40px
+}
+
+.register .lead
+{
+    padding-top: 7px;
+    padding-bottom: 5px
+}
+
+.register input
+{
+    display: inline-block;
+    width:300px;
+    
+    
+}
+
+/*############# End Our Skills #############*/
+
+
+/*############# Start statistics #############*/
+.statistics {
+    background: url(../images/background/02.jpg) fixed;
+    background-size: cover;
+    min-height: 300px;
+    color: #9D9D9D
+}
+.statistics .Back {background-color: rgba(2,2,2,0.8)}
+.statistics .container > h1 { padding-top: 20px; padding-bottom: 35px; font-weight: bold; color: #9D9D9D}
+.statistics .stats { margin-bottom: 50px; transition: all .3s ease-in-out}
+.statistics .stats:hover {color: #FFF}
+.statistics .stats h1 {font-weight: 800; font-size: 35px; color: #9D9D9D }
+.statistics .stats p {font-weight:bold; font-size: 20px; color: #9D9D9D}
+/*############# End statistics #############*/
+
+
+/*############# Start Skills #############*/
+.skills {padding-bottom: 20px}
+.skills h1 {padding-top: 30px; padding-bottom: 25px;}
+.skills .progress {height: 35px}
+.skills .progress-bar { line-height: 35px; text-align: left; text-indent: 10px; font-weight: bold;font-size: 15px}
+.skills .information {margin-left: 10%}
+.skills .information h3 {margin-top: 0; font-weight: bold}
+.skills .information .bt
+/*############# End Skills #############*/
+
+
+/*############# Start Contact us #############*/
+.contact-us
+{
+    background: url(../images/background/04.jpg) fixed;
+    background-size: cover;
+    min-height: 400px
+}
+.contact-us .Back {background-color: rgba(2,2,2,0.8); min-height: 400px;}
+.contact-us i,
+.contact-us h1,
+.contact-us p
+{color: #9D9D9D }
+.contact-us .contact { padding-top: 45px; padding-bottom: 45px}
+.contact-us .contact input,
+.contact-us .contact textarea
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(82,78,78,0.5);
+    border: 0;
+    color: #FFF
+}
+.contact-us .contact textarea
+{
+    height: 115px
+}
+.contact-us .contact  .btn
+{
+    width: 100%;
+    height: 35px;
+    line-height: 20px;
+    font-weight: bold;
+    font-size: 16px
+} 
+/*############# End Contact Us #############*/
+
+
+/*############# Start Customers #############*/
+.customers
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.customers img
+{
+    opacity: .5;
+    margin-bottom: 10px;
+    transition: all .3s ease-in-out 
+}
+.customers img:hover
+{
+    opacity: 1
+}
+
+/*############# End Customers #############*/
+.footer {padding-top: 20px; padding-botttom:20px}
+.footer h3 {color:#2196F3}
+
+/*############# Start Footer #############*/
+.footer
+{
+    background-color: #111;
+    padding-top: 30px;
+    padding-bottom: 50px
+}
+.footer h3 {color:#2196F3 }
+.footer .sitemap ul li {margin-bottom:10px; color: #EEE}
+.footer i {margin-right: 5px; margin-top: 10px; transition: all .3s ease-in-out}
+.footer i:first-of-type:hover {color: #3A5795}
+.footer i:nth-of-type(2):hover {color: #D34937}
+.footer i:nth-of-type(3):hover {color: #1DA1F2}
+.footer i:nth-of-type(4):hover {color: #BD2126}
+.footer i:nth-of-type(5):hover {color: #F36F24}
+.footer i:last-of-type:hover {color: #B6540D}
+
+.footer .article h4 {color:#AAA}
+.footer .article p {color:#EEE}
+
+.footer .work img
+{
+    background-color: #111;
+}
+/*############# End Footer #############*/
+
+
+/*############# Start Of END #############*/
+.end
+{
+    background-color:#2D2D2D;
+    color: #e9e9e9;
+    font-size: 15px;
+    margin-bottom: 0;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+.end span {color: #2196F3}
+/*############# End of END #############*/
